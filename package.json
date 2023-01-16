@@ -1,0 +1,17 @@
+{
+  "name": "foodify-pwa",
+  "version": "1.0.0",
+  "description": "Restaurants Apps with PWA features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restaurants",
+    "apps",
+    "foodify",
+    "pwa"
+  ],
+  "author": "Sincan Maulana",
+  "license": "ISC"
+}
