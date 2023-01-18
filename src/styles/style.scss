@@ -138,6 +138,50 @@ main {
   .content {
     padding: 0 20px;
 
+    .restaurant {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 0;
+
+      .restaurant_name {
+        font-size: 24px;
+        color: #0078ff;
+      }
+
+      .restaurant_info {
+        display: flex;
+        margin-top: 10px;
+
+        .city {
+          font-weight: 600;
+          background-color: #f7f8fd;
+          border: 1px solid gainsboro;
+          font-size: 14px;
+          border-radius: 30px;
+          padding: 8px 16px;
+          margin-right: 6px;
+        }
+
+        .rating {
+          font-weight: 600;
+          background-color: #f7f8fd;
+          border: 1px solid gainsboro;
+          font-size: 14px;
+          border-radius: 30px;
+          padding: 8px 16px;
+        }
+      }
+
+      .restaurant_description {
+        margin-top: 18px;
+        font-size: 16px;
+        h3 {
+          font-weight: 600;
+        }
+      }
+    }
+
     .card {
       display: flex;
       flex-direction: column;
@@ -183,6 +227,14 @@ main {
         .card-item_title {
           font-size: 20px;
           margin-top: 16px;
+
+          &:hover {
+            color: #61abff;
+          }
+
+          a {
+            text-decoration: none;
+          }
         }
 
         .card-item_description {
