@@ -360,6 +360,28 @@ main {
         }
       }
     }
+
+    /*
+  Like
+*/
+    .like {
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #db0000;
+
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      border-radius: 50%;
+      border: 0;
+
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+    }
   }
 }
 
@@ -507,8 +529,6 @@ footer {
     width: 100%;
     height: 250px;
     padding-top: 80px;
-    position: relative;
-    z-index: -99;
 
     img {
       border-radius: 0 0 16px 16px;
@@ -517,6 +537,9 @@ footer {
   }
 
   main {
+    position: relative;
+    z-index: 10;
+
     .main_title {
       padding: 0 20px;
       margin-top: 26px;
