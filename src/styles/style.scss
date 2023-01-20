@@ -305,6 +305,12 @@ main {
         padding: 20px;
         position: relative;
         box-shadow: 0 10px 74px -32px rgba(0, 0, 0, 0.1);
+        transition: all;
+        transition-duration: 500ms;
+
+        &:hover {
+          box-shadow: none;
+        }
 
         .card-item_thumbnail {
           width: 100%;
@@ -538,13 +544,13 @@ footer {
         padding: 20px;
 
         .restaurant_detail_container {
-          background-color: rgba(0, 0, 0, 0.452);
+          background-color: rgba(0, 0, 0, 0.288);
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           padding: 40px 20px;
-          border-radius: 40px;
+          border-radius: 20px;
 
           .restaurant_name {
             color: white;
@@ -586,7 +592,7 @@ footer {
         }
 
         .customer_reviews {
-          margin-top: 120px;
+          margin-top: 30px;
           background-color: #f7f8fd;
           padding: 50px 80px;
           border-radius: 40px;
